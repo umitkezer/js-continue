@@ -21,7 +21,7 @@ const birthYear = 1990;
 
 // constta değişkene boş değer atanmaz.
 
-// const jab;
+// const job;
 
 // var ile let birbirine benzerdir ama temeldew farklılıklar gösterir.
 

@@ -9,7 +9,7 @@ console.log(jonas);
 
 const jonasNew = `I'm ${firstName}, a ${year - birthDay} year old ${job}!`;
 console.log(jonasNew);
-// ilk kod satırı gibi boşluklara artılarla ilgilenmek yerine templete lierlars denilen $ işaretini kulanmak daha kolay ve okunaklıdır
+// ilk kod satırı gibi boşluklara artılarla ilgilenmek yerine templete literlars denilen $ işaretini kulanmak daha kolay ve okunaklıdır
 // $ işareti kullanılıcak ise bunu ters tırnak işareti `` kullanılmalıdır.
 
 console.log(`Just a regular string....`);
@@ -18,7 +18,7 @@ console.log(`Just a regular string....`);
 console.log("string with \n\
 miltiple \n\
 lines");
-// \n\ işareti stringlerde her zaman yeni bir string oluşturulmasını anlamına gelir
+// \n\ dizelerde her zaman yeni bir karakter olusturlmasi anlamina gelir
 
 // bunun yerine js de ters tırnak işareti ile yapabilirsiniz
 

@@ -14,7 +14,7 @@ console.log(String(23), 23); // burda ilk 23 un string 2. sinin ise degeri dir
 
 // type coercion
 
-console.log("I am " + 23 + "yeras old"); //I am 23 years old (string)
+console.log("I am " + 23 + "years old"); //I am 23 years old (string)
 //'+' isareti burda sayiyi string olmaya zorlar
 // + isaretinde bir sayi ile bir string arasinda bir islem yapildiginda sayi bir stringe donusturulecektir
 console.log("I am " + "23" + "years old"); //I am 23 years old
@@ -22,11 +22,11 @@ console.log("I am " + "23" + "years old"); //I am 23 years old
 console.log("I am " + String(23) + "years old"); // I am 23 years old
 // type coercion olmasaydi ustteki gibi yazmak zordunda kalacaktik
 
-// type coercion sadece stringlere i;lem uygulmaz
+// type coercion sadece stringlere islem uygulmaz
 console.log("23" - "10" - 3); // 10
 // '-' operatoru stringleri number a donusturdugunu goruruz bu durumda stringler sayilara donusur.
 console.log("23" + "10" + 3); // 23103
-// = isaretti burda degerleri yan yana toplar
+// + isaretti burda degerleri yan yana toplar
 console.log("23" * "2"); // 46
 console.log("23" / "2"); // 11.5
-// carpma ve bolme islemlerinde cali;masi icin tip donusumu yapmnak zorunda dir
+// carpma ve bolme islemlerinde calismasi icin tip donusumu yapmak zorunda dir
