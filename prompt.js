@@ -2,15 +2,15 @@
 
 //prompt("What's your favourite number?");
 // kullanicadan aldimiz bilgiyi saklayabilmemiz icin bir degisken atamak zorundayiz :
-/*
-const favourite = prompt("What's your favourite number?");
-console.log(favourite); // '23' pop up ta yazdigimiz deger
-console.log(typeof favourite); // "string"
 
-if (favourite == 23) {
-  // '23' == 23 tip donusumu yapar
-  console.log("Cool! 23 is an amazing number!");
-}*/
+// const favourite = prompt("What's your favourite number?");
+// console.log(favourite); // '23' pop up ta yazdigimiz deger
+// console.log(typeof favourite); // "string"
+
+// if (favourite == 23) {
+//   // '23' == 23 tip donusumu yapar
+//   console.log("Cool! 23 is an amazing number!");
+// }
 
 const favourite = Number(prompt("What's your favourite number?"));
 console.log(favourite); // 23 artik bir string degil number
