@@ -13,7 +13,7 @@ console.log(!hasDriversLicense);
 
 const isTired = false; // C
 console.log(hasDriversLicense && hasGoodVision && isTired);
-
+re;
 if (hasDriversLicense && hasGoodVision && !isTired) {
   console.log("Sarah is able to drive!");
 } else {
